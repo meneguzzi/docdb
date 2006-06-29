@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="diff-i" size="990,295" id="org.soton.docdb.diff" metadata="uml2-1.0" initialized="true" tag="5" key="323030363034313220646F636462">
+  <children xsi:type="editmodel:ClassEditModel" name="FileScanner" location="50,40" size="119,85" id="org.soton.docdb.diff/FileScanner" runTimeClassModel="FileScanner(Ljava.io.File;),scanFiles()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,36">
+      <children xsi:type="editmodel:MethodEditModel" name="FileScanner" id="org.soton.docdb.diff/FileScanner#FileScanner(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="scanFiles" id="org.soton.docdb.diff/FileScanner#scanFiles()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FileSignature" location="330,40" size="157,175" id="org.soton.docdb.diff/FileSignature" runTimeClassModel="MD_ALGORITHM,toString(),getName(),FileSignature(Ljava.io.File;),getDigest(),getPath(),length()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="MD_ALGORITHM" id="org.soton.docdb.diff/FileSignature#MD_ALGORITHM"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,108">
+      <children xsi:type="editmodel:MethodEditModel" name="FileSignature" id="org.soton.docdb.diff/FileSignature#FileSignature(Ljava.io.File;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDigest" id="org.soton.docdb.diff/FileSignature#getDigest()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="org.soton.docdb.diff/FileSignature#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPath" id="org.soton.docdb.diff/FileSignature#getPath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="length" id="org.soton.docdb.diff/FileSignature#length()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="toString" id="org.soton.docdb.diff/FileSignature#toString()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>
