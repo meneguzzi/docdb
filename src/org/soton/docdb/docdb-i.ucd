@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="docdb-i" size="990,640" id="org.soton.docdb" metadata="uml2-1.0" initialized="true" tag="5" key="323030363034313220646F636462">
+  <children xsi:type="editmodel:ClassEditModel" name="DocDB" location="146,139" size="86,103" id="org.soton.docdb/DocDB" runTimeClassModel="main([Ljava.lang.String;),DocDB([Ljava.lang.String;),start()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,54">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="org.soton.docdb/DocDB#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DocDB" id="org.soton.docdb/DocDB#DocDB([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="start" id="org.soton.docdb/DocDB#start()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showAssociationMember="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showAssociationMember="true"/>
+</editmodel:ClassDiagramEditModel>
